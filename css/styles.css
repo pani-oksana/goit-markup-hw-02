@@ -3,6 +3,9 @@
 body{
     font-family:'Roboto', sans-serif;
     color: #212121;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 
 /*header*/
@@ -14,7 +17,6 @@ body{
     font-size: 26px;
     line-height: 1.1;
 /* identical to box height */
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -36,13 +38,13 @@ body{
 .header-nav-link {
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 0.875;
     letter-spacing: 0.02em;
     color: #212121;
-    
+}
 
-    
+.current {
+   color: #2196F3;
 }
 
 .header-nav-link:hover, .header-nav-link:focus {
@@ -52,7 +54,6 @@ body{
 .contakt-link {
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
     color: #757575;
@@ -64,6 +65,9 @@ body{
 
 /*main*/
 
+.slogan-btn {
+background-color: #2F303A;
+}
 .slogan {
     font-style: normal;
     font-weight: 900;
@@ -73,26 +77,29 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
     color: #FFFFFF;
-    background-color: #757575;
 }
 
 .btn{
+    font-family: inherit;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
-    
-    display: flex;
-    align-items: center;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
     text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    color: #212121;
+    background-color: #F5F4FA;
     cursor: pointer;
+    
 }
+
+.btn:hover, .btn:focus {
+    color: #FFFFFF;
+    background-color:#188CE8;
+}
+
+   
 
         /*переваги*/
 
@@ -115,7 +122,6 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     
 }
@@ -126,9 +132,6 @@ body{
     font-size: 14px;
     line-height: 1.7;
     /* or 171% */
-
-    letter-spacing: 0.03em;
-
     color: #757575;
 }
 
@@ -140,9 +143,30 @@ body{
     font-size: 36px;
     line-height: 1.1;
     text-align: center;
-    letter-spacing: 0.03em;
 
-    
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    /* identical to box height */
+    text-align: center;
+}
+
+.profession{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1;
+    /* identical to box height */
+    text-align: center;
+    color: #757575;
 }
 
 
@@ -158,8 +182,7 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.1;
-    /* identical to box height */
-    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .first-part-footer {
@@ -172,53 +195,39 @@ body{
 .address-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     /* or 171% */
-    letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.address-link:hover, .address-link:focus {
+    color: #2196F3;
 }
 
 .footer-mail-link {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     /* or 171% */
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-mail-link:hover, .footer-mail-link:focus {
+    color: #2196F3;
+}
 .footer-tel-link{
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     /* or 171% */
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel-link:hover, .footer-tel-link:focus {
+    color: #2196F3;
 }
 
 
 
 /*PORTFOLIO*/
 
-.filters-btn{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    /* identical to box height, or 162% */
-    text-align: center;
-    letter-spacing: 0.03em;
-    background-color: #F5F4FA;
-    cursor: pointer;
-}
-
-.filters-btn:hover, .filters-btn:focus {
-    color: #FFFFFF;
-    background-color:#2196F3;
-}
 
 .title-project {
     font-style: normal;
@@ -235,7 +244,6 @@ body{
     font-size: 16px;
     line-height: 1.8;
     /* identical to box height, or 188% */
-    letter-spacing: 0.03em;
     color: #757575;
 }
 
